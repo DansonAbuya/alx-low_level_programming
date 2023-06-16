@@ -5,8 +5,8 @@
   *
   * Return: Always (Success)
   */
-int main(void)
-{
+   int main(void)
+   {
         char l;
 
 	for (l = 'z'; l >= 'a'; l--)
@@ -17,4 +17,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}
+  }
