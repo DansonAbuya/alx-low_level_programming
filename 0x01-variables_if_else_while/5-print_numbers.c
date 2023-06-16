@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 /**
-  * main - Outputs number 0 to 9
-  * * Return: Always (Success)
+  * main -Outputs numbers 0 to 9
+  *
+  * Return: Always (Success)
   */
 int main(void)
 {
-        int  n;
+	char n;
 
-	for (n = 0; n <= 9; n++)
+	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
 	}
