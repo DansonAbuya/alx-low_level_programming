@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  * main - prints all possible combinations of two two-digit numbers
+  * main - Prints 3 combination of numbers
   *
   * Return: Always (Success)
   */
@@ -9,13 +9,13 @@ int main(void)
 {
 	int c, i, k, j;
 
-	for (c = 0; c <= 99; c++)
+	for (c = 48; c <= 57; c++)
 	{
-		for (i = 0; i <= 99; i++)
+		for (i = 48; i <= 57; i++)
 		{
-			for (k = 0; k <= 99; k++)
+			for (k = 48; k <= 57; k++)
 			{
-				for (j = 0; j <= 99; j++)
+				for (j = 48; j <= 57; j++)
 				{
 					if (((k + j) > (c + i) &&  k >= c) || c < k)
 					{
@@ -25,7 +25,7 @@ int main(void)
 						putchar(k);
 						putchar(j);
 
-					if (c + i + k + j == 198 && c == 99)
+					if (c + i + k + j == 227 && c == 57)
 					{
 					break;
 					}
