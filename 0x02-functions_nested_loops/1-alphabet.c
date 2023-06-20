@@ -3,7 +3,7 @@
 /**
  *Outputs alphabets in lowercase, followed by a new line.
  */
-void alphabet_in_lowercase(void)
+void getlowercaseAlphabets(void)
 {
 	char alph;
 
