@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  * main - Outputs the first 52 fibonacci numbers starting with 1 and 2, followed by a new line
+  * main - Outputs the first 52 fibonacci numbers starting with 1 and 2
   *
   * Return: returns o
   */
