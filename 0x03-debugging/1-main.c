@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - Results in an infinite loop
+* main - causes an infinite loop
 * Return: 0
 */
 
