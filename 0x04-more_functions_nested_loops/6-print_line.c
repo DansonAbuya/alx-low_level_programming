@@ -2,7 +2,7 @@
 
 /**
   * print_line - Draws a straight line 
-  * @n:The number of lines to draw
+  * @n: The number of lines to draw
   *
   * Return: empty
   */
