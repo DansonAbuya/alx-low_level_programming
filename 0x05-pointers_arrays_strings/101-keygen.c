@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main()
+int main(void)
 {
-    int coun = 0;
+    int count = 0;
     srandom(time(NULL)); 
     char randChar;
 
