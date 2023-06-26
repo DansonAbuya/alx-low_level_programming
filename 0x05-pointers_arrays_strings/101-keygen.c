@@ -4,12 +4,11 @@
 
 int main(void)
 {
+    int  passLength;
     char randChar;
     int count = 0;
     srandom(time(NULL)); 
-   
-
-    int  passLength;
+  
 
     printf("Please input  password Length \n");
     scanf("%d", &passLength);
