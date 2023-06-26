@@ -10,7 +10,7 @@ int main(void)
     srandom(time(NULL)); 
   
 
-    printf("Tada! Congrats\n")
+    printf("Tada! Congrats\n");
     scanf("%d", &passLength);
 
     while(count < passLength)    {
