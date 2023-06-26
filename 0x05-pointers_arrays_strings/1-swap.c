@@ -15,5 +15,5 @@ void swap_int(int *a, int *b)
 	swaper = *a;
 	*a = *b;
 	*b = swaper;
-	
+
 }
