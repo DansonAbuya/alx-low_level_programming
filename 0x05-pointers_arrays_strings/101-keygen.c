@@ -4,9 +4,10 @@
 
 int main(void)
 {
+    char randChar;
     int count = 0;
     srandom(time(NULL)); 
-    char randChar;
+   
 
     int  passLength;
 
