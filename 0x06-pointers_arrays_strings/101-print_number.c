@@ -4,7 +4,7 @@
   * print_number: Outputs  integers with putchar
   * @n: Number to be output
   *
-  * Return: 0
+  * Return:empty 
   */
 void print_number(int n)
 {
@@ -22,4 +22,5 @@ void print_number(int n)
 		print_number(m / 10);
 
 	_putchar(m % 10 + '0');
+
 }
