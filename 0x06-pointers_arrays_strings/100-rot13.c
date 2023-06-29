@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-  * rot13 - encodes a string using rot13 
+  * rot13 - encodes a string using rot13
   * @s: the string to be encoded
   *
   * Return: the encoded string
@@ -30,4 +30,3 @@ char *rot13(char *s)
 
 	return (s);
 }
-
