@@ -1,1 +1,1 @@
-0x09-static_libraries directory readme file
+0x09-static_libraries readme file
