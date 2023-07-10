@@ -6,7 +6,8 @@
   * @str: the string to be duplicated
   *
   * Return: the result
-  * */
+  * 
+  */
 char *_strdup(char *str)
 {
 	int a = 0, i = 1;
