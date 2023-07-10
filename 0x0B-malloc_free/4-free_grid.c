@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 /**
-  * free_grid - ... 
-  * created by your alloc_grid function
-  * @grid: grid to be freed
-  * @height: grid dimension
+  * free_grid - ...
+  * @grid:grid to be freed
+  * @height:grid dimension
   *
   * Return: result
   */
