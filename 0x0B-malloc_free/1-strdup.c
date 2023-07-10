@@ -6,7 +6,6 @@
   * @str: the string to be duplicated
   *
   * Return: the result
-  * 
   */
 char *_strdup(char *str)
 {
