@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
-  * alloc_grid - the function tha returns a pointer to a 2 dimensional array of integers
+  * alloc_grid - the function tha returns a pointer
+  * to a 2 dimensional array of integers
   * @width:first dimension of the arrat
   * @height: second array dimension
   *
