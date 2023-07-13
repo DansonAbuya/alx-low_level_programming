@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
-  * _realloc - the  function that reallocates a memory block using malloc and free
+  * _realloc - the  function that reallocates
+  * a memory block using malloc and free
   * @ptr: pointer
   * @old_size: as it suggests
   * @new_size: as it suggests
