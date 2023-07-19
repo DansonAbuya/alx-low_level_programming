@@ -9,5 +9,6 @@
   */
 void print_name(char *name, void (*f)(char *))
 {
-	_putchar("The name is %s\n", name)
+	if (name != NULL && f != NULL)
+		f(name);
 }
