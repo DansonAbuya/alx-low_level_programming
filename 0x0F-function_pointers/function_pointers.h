@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #ifndef _MYHEADER_
 #define _MYHEADER_
 int _putchar(char c);
