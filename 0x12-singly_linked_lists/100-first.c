@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-void first_text(void) __attribute__ ((constructor));
+void print_text(void) __attribute__ ((constructor));
 
 /**
-  * first - the function that returns the text
+  * print_text - the function that returns the text
   *
   * Return: 0
   */
