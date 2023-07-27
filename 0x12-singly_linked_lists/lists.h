@@ -1,6 +1,6 @@
 #ifndef _MYLINKEDLIST_
 #define _MYLINKEDLIST_
-
+#include <stddef.h>
 /**
  * struct list_s - definition of the singly linked list
  * @str: string 
