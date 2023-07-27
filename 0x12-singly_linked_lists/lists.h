@@ -3,9 +3,9 @@
 #include <stddef.h>
 /**
  * struct list_s - definition of the singly linked list
- * @str: string 
- * @lenth: length of the string
- * @next_node: points to the next node
+ * @str: ..
+ * @len: length of the string
+ * @next: points to the next node
  *
  * Description: singly linked list node structure
  * for Holberton project
