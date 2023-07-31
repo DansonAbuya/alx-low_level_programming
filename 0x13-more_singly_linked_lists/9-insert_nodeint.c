@@ -10,7 +10,7 @@
   *
   * Return:new node
   */
-listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int a)
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	listint_t *new_node, *iter;
 	unsigned int count = 1;
@@ -21,7 +21,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int a)
 		if (new_node == NULL)
 			return (NULL);
 
-		new_node->a = a;
+		new_node->n = n;
 		if (idx > 0)
 		{
 			iter = *head;
