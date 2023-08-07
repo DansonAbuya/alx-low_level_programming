@@ -25,7 +25,7 @@ int main(int argc, char **argv)
   * @src: the file to copy from
   * @dest: the file to copy to
   *
-  * Return: result 
+  * Return: result
   */
 void copy_file(const char *src, const char *dest)
 {
